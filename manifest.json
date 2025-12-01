@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hourglass",
-  "description": "Extensão de Cronômetro e Timer",
+  "description": "Extensão: Cronômetro e Timer",
   "version": "1.0",
   "action": {
     "default_popup": "index.html",
