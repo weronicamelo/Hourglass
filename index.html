@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Hourglass Teste</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="light">
+
+<div class="app">
+    <h1>HOURGLASS</h1>
+
+    <label><input type="radio" id="modoCron" name="modo" checked>Cronômetro</label>
+    <label><input type="radio" id="modoTimer" name="modo">Timer</label>
+
+    <div id="display" class="display">00:00.000</div>
+
+    <div class="presets">
+        <button id="add30">+0:30</button>
+        <button id="add60">+1:00</button>
+        <button id="add300">+5:00</button>
+    </div>
+
+    <button id="btnReset">⟳</button>
+    <button id="btnPlay">▶</button>
+
+    <div class="config">
+        <h3>Configurações</h3>
+
+        Tema:<br>
+        <label><input type="radio" id="temaClaro" name="tema" checked>Claro</label>
+        <label><input type="radio" id="temaEscuro" name="tema">Escuro</label>
+
+        <br><br>
+        <label><input type="checkbox" id="mostrarMs" checked>Mostrar milissegundos</label>
+        <br>
+        <label><input type="checkbox" id="ativarAlarme" checked>Ativar alarme</label>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
