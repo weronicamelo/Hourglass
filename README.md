@@ -1,4 +1,2 @@
-# Hourglass
-
-## Extensão de cronomêtro 
+# Hourglass - Extensão de cronomêtro 
 ### Recurso de acessibilidade
