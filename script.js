@@ -73,7 +73,7 @@ function atualizarDisplay() {
 
   const csStr = String(ms).padStart(2, "0"); 
 
-  // Mostrar os milissegundos com a classe .ms
+  // Mostrar os milissegundos com a classe ms
   display.innerHTML = config.mostrarMilissegundos
     ? `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}.<span class="ms">${csStr}</span>`
     : `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
