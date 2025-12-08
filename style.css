@@ -410,3 +410,15 @@ body.grande #tamanhoInterface {
 .hidden {
     display: none !important;
 }
+
+.rodape {
+    margin-top: 5px;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #8B5CFF;
+    font-weight: 500;
+}
