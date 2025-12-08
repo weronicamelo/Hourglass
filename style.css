@@ -188,7 +188,6 @@ body.dark .radio-group input[type="radio"]:checked + label {
   color: #FFFFFF;
 }
 
-/* Força cor labels não selecionados no modo escuro */
 body.dark .radio-group label,
 body.dark .radio-group span {
   color: #FFFFFF;
@@ -203,6 +202,16 @@ body.dark .radio-group span {
   margin: 15px 0 1px 0;
   font-weight: 300;
   color: var(--text-color);
+}
+
+/* No modo claro */
+body.light .display .ms {
+  color: black; 
+}
+
+/* No modo escuro */
+body.dark .display .ms {
+  color: white; 
 }
 
 .display .ms {
