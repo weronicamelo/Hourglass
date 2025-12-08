@@ -69,12 +69,13 @@ function atualizarDisplay() {
 
   let m = Math.floor(t / 60000);
   let s = Math.floor((t % 60000) / 1000);
-  let ms = Math.floor((t % 1000) / 10);
+  let ms = Math.floor((t % 1000) / 10); 
 
-  const csStr = String(ms).padStart(2, "0");
+  const csStr = String(ms).padStart(2, "0"); 
 
-  display.textContent = config.mostrarMilissegundos
-    ? `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}.${csStr}`
+  // Mostrar os milissegundos com a classe ms
+  display.innerHTML = config.mostrarMilissegundos
+    ? `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}.<span class="ms">${csStr}</span>`
     : `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
